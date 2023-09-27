@@ -21,11 +21,14 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        initialize();
+        // initialize();
         // runCommandLoopUntilByeCommand();
-
-        Logger.showLog(" Bye. Hope to see you again soon!", false);
-        Logger.showLog("____________________________________________________________", false);
+        Logger.customPrint("____________________________________________________________");
+        Logger.customPrint(" Hello! I'm EggyByte!");
+        Logger.customPrint(" What can I do for you?");
+        Logger.customPrint("____________________________________________________________");
+        Logger.customPrint(" Bye. Hope to see you again soon!");
+        Logger.customPrint("____________________________________________________________");
     }
 
     /**
