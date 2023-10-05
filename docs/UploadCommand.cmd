@@ -1,6 +1,6 @@
 rem customize the tag name and message here
-set TAG_NAME=A-JavaDoc
-set MESSAGE="Add JavaDoc comments"
+set TAG_NAME=A-UserGuide
+set MESSAGE="Add a User Guide"
 
 rem create a branch
 git branch branch-%TAG_NAME%

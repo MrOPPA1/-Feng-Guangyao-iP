@@ -50,15 +50,14 @@ Example:
 ### Format
 #### Basic Rules
 1. Use '/' to split each arguments.
-1. Remember to comply with each format rules for the specific class.
+2. Remember to comply with each format rules for the specific class.
 
-> [!IMPORTANT]
-> Crucial information necessary for users to succeed.
-
-1. When meet with format problems, please check your input.If you don't know how to write a standard command, just modify the example input.
+> [!IMPORTANT]  
+> 3. When meet with format problems, please check your input.If you don't know how to write a standard command, just modify the example input.
 #### Classes
 ##### String
-No any restriction.Just remind don't input '/', which will make misunderstanding.
+No any restriction.  
+Just remind don't input '/', which will make misunderstanding.
 ##### DateTime
 Only following format is supported:
 ```
