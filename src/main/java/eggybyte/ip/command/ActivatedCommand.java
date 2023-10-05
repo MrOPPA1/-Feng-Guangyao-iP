@@ -5,9 +5,6 @@ import eggybyte.ip.data.task.*;
 
 import java.util.ArrayList;
 
-/**
- * Lists all persons in the PersonBook to the user.
- */
 public class ActivatedCommand extends Command {
 
     public static final String COMMAND_WORD = "activated";
@@ -25,12 +22,12 @@ public class ActivatedCommand extends Command {
         ArrayList<Task> filteredTasks = new ArrayList<Task>();
         for (Task task : runningState.tasks) {
             if (task instanceof Deadline) {
-                if (((Deadline) task).by.compareDate(date) != 1) {
+                if (((Deadline) task).by.compareDate(date) != -1) {
                     filteredTasks.add(task);
                 }
             }
             if (task instanceof Event) {
-                if (((Event) task).to.compareDate(date) != -1 && ((Event) task).from.compareDate(date) != 1) {
+                if (((Event) task).from.compareDate(date) != 1 && ((Event) task).to.compareDate(date) != -1) {
                     filteredTasks.add(task);
                 }
             }
