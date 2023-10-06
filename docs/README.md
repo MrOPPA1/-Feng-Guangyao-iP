@@ -4,7 +4,7 @@
 > [Feature](#Feature)  
 [Usage](#Usage)
 
-## Feature{#Feature}
+## Feature
 
 ### Local Data Saving
 
@@ -23,7 +23,7 @@ User of any platform that supports jar file can use it.
 
 We have tested it for many extreme situation and fix numerous potential problems.Users can enjoy themselves using this jar.
 
-## Usage{#Usage}
+## Usage
 ### `Keyword` - Describe action
 ### `Arguments` - Optional words that customize 
 ### Input: 
@@ -66,7 +66,7 @@ Example:
 ##### String
 No any restriction.  
 Just remind don't input '/', which will make misunderstanding.
-##### DateTime{#DateTime}
+##### DateTime
 Only following format is supported:
 ```
 yyyy-M-d HHmm
@@ -99,7 +99,7 @@ MMM d, yyyy HH:mm
 ```06```
 ```55```
 
-##### Date{#Date}
+##### Date
 Only following format is supported:
 ```
 yyyy-M-d
