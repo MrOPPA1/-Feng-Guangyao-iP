@@ -131,7 +131,7 @@ MMM d, yyyy
 [Find](#Find)  
 [Bye](#Bye)
 
-#### Todo{#Todo}
+#### Todo
 > [!NOTE]
 > Add a task into the current list with type of `Todo`.
 - Keywords: `todo`
@@ -153,7 +153,7 @@ todo Read Books
     ____________________________________________________________
 ```
 
-#### Deadline{#Deadline}
+#### Deadline
 > [!NOTE]
 > Add a task into the current list with type of `Deadline`.
 - Keywords: `deadline`
@@ -176,7 +176,7 @@ deadline Read Books /by 1928-10-1 13:2
     ____________________________________________________________
 ```
 
-#### Event{#Event}
+#### Event
 > [!NOTE]
 > Add a task into the current list with type of `Event`.
 - Keywords: `event`
@@ -200,7 +200,7 @@ event Read Bookss /from 1925-10-1 13:2 /to 1928-10-1 13:2
     ____________________________________________________________
 ```
 
-#### List{#List}
+#### List
 > [!NOTE]
 > Show all tasks in the current list.
 - Keywords: `list`
@@ -223,7 +223,7 @@ list
     ____________________________________________________________
 ```
 
-#### Mark{#Mark}
+#### Mark
 > [!NOTE]
 > Mark an existing task in the current list as done.
 - Keywords: `mark`
@@ -244,7 +244,7 @@ mark 1
     ____________________________________________________________
 ```
 
-#### Unmark{#Unmark}
+#### Unmark
 > [!NOTE]
 > Mark an existing task in the current list as undone.
 - Keywords: `unmark`
@@ -265,7 +265,7 @@ mark 1
     ____________________________________________________________
 ```
 
-#### Delete{#Delete}
+#### Delete
 > [!NOTE]
 > Delete an existing task in the current list.
 - Keywords: `delete`
@@ -287,7 +287,7 @@ delete 3
     ____________________________________________________________
 ```
 
-#### Activated{#Activated}
+#### Activated
 > [!NOTE]
 > Search all tasks in the current list with a filter of date.  
 > Those tasks whose type are `Deadline` or `Event` that are still available on the input date will be shown.
@@ -309,7 +309,7 @@ activated 2020-1-1
     ____________________________________________________________
 ```
 
-#### Find{#Find}
+#### Find
 > [!NOTE]
 > Find all tasks in the current list with a filter of string.  
 > Those tasks whose description contains the input string will be shown.
@@ -332,7 +332,7 @@ find book
 ```
 
 
-#### Bye{#Bye}
+#### Bye
 > [!NOTE]
 > Terminate the program and automatically save the date locally.
 - Keywords: `bye`
@@ -354,5 +354,3 @@ bye
      Your data has been saved at the path:
        C:\Users\fDu.0ppa1\AppData\LocalLow\EggyByte\iP\Tasks.json
 ```
-
-[def]: #####String
