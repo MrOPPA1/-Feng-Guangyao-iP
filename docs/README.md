@@ -1,6 +1,10 @@
 # User Guide
 
-## Features 
+## Contents
+> [Feature](#Feature)  
+[Usage](#Usage)
+
+## Feature{#Feature}
 
 ### Local Data Saving
 
@@ -19,7 +23,7 @@ User of any platform that supports jar file can use it.
 
 We have tested it for many extreme situation and fix numerous potential problems.Users can enjoy themselves using this jar.
 
-## Usage
+## Usage{#Usage}
 ### `Keyword` - Describe action
 ### `Arguments` - Optional words that customize 
 ### Input: 
@@ -55,12 +59,14 @@ Example:
 > [!IMPORTANT]  
 > 3. When meet with format problems, please check your input.If you don't know how to write a standard command, just modify the example input.
 #### Classes
-1. [String](#String)
+> [String](#String)  
+[DateTime](#DateTime)  
+[Date](#Date)
 
 ##### String
 No any restriction.  
 Just remind don't input '/', which will make misunderstanding.
-##### DateTime
+##### DateTime{#DateTime}
 Only following format is supported:
 ```
 yyyy-M-d HHmm
@@ -93,10 +99,39 @@ MMM d, yyyy HH:mm
 ```06```
 ```55```
 
-
+##### Date{#Date}
+Only following format is supported:
+```
+yyyy-M-d
+M-d-yyyy
+MMM d, yyyy
+```
+1. yyyy stands for year, which must be 4 characters.  
+```2020```
+2. M stands for month, which can be 1 or 2 characters.  
+```1```
+```11```
+3. MMM stands for month in English, which must be 3 characters.  
+```Oct```
+```Apr```
+4. d stands for day, which can be 1 or 2 characters.  
+```5```
+```28```
 
 ### Valid Keywords and Arguments:
-#### Todo
+
+> [Todo](#Todo)  
+[Deadline](#Deadline) 
+[Event](#Event)  
+[List](#List)  
+[Mark](#Mark)  
+[Unmark](#Unmark)  
+[Delete](#Delete)  
+[Activated](#Activated)  
+[Find](#Find)  
+[Bye](#Bye)
+
+#### Todo{#Todo}
 > [!NOTE]
 > Add a task into the current list with type of `Todo`.
 - Keywords: `todo`
@@ -118,7 +153,7 @@ todo Read Books
     ____________________________________________________________
 ```
 
-#### Deadline
+#### Deadline{#Deadline}
 > [!NOTE]
 > Add a task into the current list with type of `Deadline`.
 - Keywords: `deadline`
@@ -141,7 +176,7 @@ deadline Read Books /by 1928-10-1 13:2
     ____________________________________________________________
 ```
 
-#### Event
+#### Event{#Event}
 > [!NOTE]
 > Add a task into the current list with type of `Event`.
 - Keywords: `event`
@@ -165,7 +200,7 @@ event Read Bookss /from 1925-10-1 13:2 /to 1928-10-1 13:2
     ____________________________________________________________
 ```
 
-#### List
+#### List{#List}
 > [!NOTE]
 > Show all tasks in the current list.
 - Keywords: `list`
@@ -188,7 +223,7 @@ list
     ____________________________________________________________
 ```
 
-#### Mark
+#### Mark{#Mark}
 > [!NOTE]
 > Mark an existing task in the current list as done.
 - Keywords: `mark`
@@ -209,7 +244,7 @@ mark 1
     ____________________________________________________________
 ```
 
-#### Unmark
+#### Unmark{#Unmark}
 > [!NOTE]
 > Mark an existing task in the current list as undone.
 - Keywords: `unmark`
@@ -230,7 +265,7 @@ mark 1
     ____________________________________________________________
 ```
 
-#### Delete
+#### Delete{#Delete}
 > [!NOTE]
 > Delete an existing task in the current list.
 - Keywords: `delete`
@@ -252,7 +287,7 @@ delete 3
     ____________________________________________________________
 ```
 
-#### Activated
+#### Activated{#Activated}
 > [!NOTE]
 > Search all tasks in the current list with a filter of date.  
 > Those tasks whose type are `Deadline` or `Event` that are still available on the input date will be shown.
@@ -274,7 +309,7 @@ activated 2020-1-1
     ____________________________________________________________
 ```
 
-#### Find
+#### Find{#Find}
 > [!NOTE]
 > Find all tasks in the current list with a filter of string.  
 > Those tasks whose description contains the input string will be shown.
@@ -297,7 +332,7 @@ find book
 ```
 
 
-#### Bye
+#### Bye{#Bye}
 > [!NOTE]
 > Terminate the program and automatically save the date locally.
 - Keywords: `bye`
